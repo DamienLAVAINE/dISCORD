@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Playlist Concert</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <div class="sidebar">
+    <div class="logo-container">
+  <img src="Image/Logo.png" class="logo">
+  <h2>Playlist Concert</h2>
+      <div id="playlist-duration"></div>
+
+</div>
+<input type="text" id="search">
+    <div id="playlist"></div>
+  </div>
+
+  <div class="player">
+    <h3 id="title">Sélectionne un morceau</h3>
+    <canvas id="visualizer"></canvas>
+
+<audio id="audio"></audio>
+
+<div class="progress-container" id="progress-container">
+
+  <div class="progress-bar" id="progress-bar"></div>
+
+  <div class="progress-handle" id="progress-handle"></div>
+
+</div>
+
+<div class="time-info">
+  <span id="current-time">0:00</span>
+  <span id="duration">0:00</span>
+</div>
+
+<div class="controls">
+
+  <button onclick="skip(-30)">⏪ 30</button>
+
+  <button onclick="skip(-10)">◀ 10</button>
+
+  <button onclick="prevTrack()">⏮</button>
+
+  <button onclick="playPause()">▶ / ⏸</button>
+
+  <button onclick="nextTrack()">⏭</button>
+
+  <button onclick="skip(10)">10 ▶</button>
+
+  <button onclick="skip(30)">30 ⏩</button>
+
+  <button id="repeat-btn" onclick="toggleRepeat()">🔁</button>
+
+  <button onclick="toggleFullscreen()">⛶</button>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
