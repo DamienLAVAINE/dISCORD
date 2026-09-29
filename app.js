@@ -1,4 +1,5 @@
 const tracks = [
+  { name: "63 voix V8r", file: "audio/63 voix V8r.mp3", duration: "1:30" },
   { name: "66", file: "audio/66 V4.mp3", duration: "4:06" },
   { name: "66 avec bass Dam 20.01.26 +10dB", file: "audio/66 avec bass Dam 20.01.26 +10dB.mp3", duration: "4:05" },
   { name: "67 V1", file: "audio/67 V1.mp3", duration: "2:56" },
@@ -12,12 +13,17 @@ const tracks = [
   { name: "81 v3", file: "audio/81 v3.mp3", duration: "4:13" },
   { name: "83 V0", file: "audio/83 V0.mp3", duration: "3:57" },
   { name: "84 V0", file: "audio/84 V0.mp3", duration: "2:30" },
+  { name: "85 V0", file: "audio/85 V0.mp3", duration: "3:08" },
   { name: "86 v6 ", file: "audio/86 v6 .mp3", duration: "3:31" },
   { name: "87 v3", file: "audio/87 v3.mp3", duration: "3:39" },
   { name: "88 v1", file: "audio/88 v1.mp3", duration: "3:16" },
+  { name: "89 V0", file: "audio/89 V0.mp3", duration: "1:57" },
   { name: "90 V2 maquette", file: "audio/90 V2 maquette.mp3", duration: "2:35" },
   { name: "91", file: "audio/91.mp3", duration: "3:48" },
-
+  { name: "95 v0", file: "audio/95 v0.mp3", duration: "0:49" },
+  { name: "105 v0", file: "audio/105 v0.mp3", duration: "2:24" },
+  { name: "111", file: "audio/111.mp3", duration: "1:36" },
+  { name: "112V1", file: "audio/112V1.mp3", duration: "1:48" },
    
 ];
 
