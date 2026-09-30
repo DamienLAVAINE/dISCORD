@@ -1,7 +1,11 @@
 const tracks = [
-  { name: "63 voix V8r", file: "audio/63 voix V8r.mp3", duration: "1:30" },
+
   { name: "66", file: "audio/66 V4.mp3", duration: "4:06" },
   { name: "66 avec bass Dam 20.01.26 +10dB", file: "audio/66 avec bass Dam 20.01.26 +10dB.mp3", duration: "4:05" },
+  { name: "80 v5", file: "audio/80 v5.mp3", duration: "4:00" },
+  { name: "80 V5 falling Sbs", file: "audio/80 V5 falling Sbs.mp3", duration: "3:30" },
+
+  { name: "63 voix V8r", file: "audio/63 voix V8r.mp3", duration: "1:30" },
   { name: "67 V1", file: "audio/67 V1.mp3", duration: "2:56" },
   { name: "68 V0", file: "audio/68 V0.mp3", duration: "2:54" },
   { name: "69 V0", file: "audio/69 V0.mp3", duration: "2:58" },
@@ -9,7 +13,6 @@ const tracks = [
   { name: "74 V0", file: "audio/74 V0.mp3", duration: "0:41" },
   { name: "76 V0", file: "audio/76 V0.mp3", duration: "3:57" },
   { name: "77 V0", file: "audio/77 V0.mp3", duration: "2:21" },
-  { name: "80 v5", file: "audio/80 v5.mp3", duration: "4:00" },
   { name: "81 v3", file: "audio/81 v3.mp3", duration: "4:13" },
   { name: "83 V0", file: "audio/83 V0.mp3", duration: "3:57" },
   { name: "84 V0", file: "audio/84 V0.mp3", duration: "2:30" },
@@ -27,7 +30,6 @@ const tracks = [
   { name: "100 bass", file: "audio/100bass.mp3", duration: "0:00" },
   { name: "67 Sbs", file: "audio/67 Sbs.mp3", duration: "2:56" },
   { name: "68 V0 SBs", file: "audio/68 V0 SBs.mp3", duration: "2:54" },
-  { name: "80 V5 falling Sbs", file: "audio/80 V5 falling Sbs.mp3", duration: "3:30" },
   { name: "83 V0 Sbs", file: "audio/83 V0 Sbs.mp3", duration: "3:57" },
   { name: "86 v6 Sbs ", file: "audio/86 v6 Sbs.mp3", duration: "3:31" },
   { name: "87 v3 Sbs", file: "audio/87 v3 Sbs.mp3", duration: "3:39" },
