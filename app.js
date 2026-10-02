@@ -29,9 +29,9 @@ const tracks = [
   { name: "67 Sbs", file: "audio/67 Sbs.mp3", duration: "2:56" },
   { name: "68 V0 SBs", file: "audio/68 V0 SBs.mp3", duration: "2:54" },
   { name: "83 V0 Sbs", file: "audio/83 V0 Sbs.mp3", duration: "3:57" },
-  { name: "86 v6 Sbs ", file: "audio/86 v6 Sbs.mp3", duration: "3:31" },
+  { name: "86 v6 Sbs", file: "audio/86 v6 Sbs.mp3", duration: "3:31" },
   { name: "87 v3 Sbs", file: "audio/87 v3 Sbs.mp3", duration: "3:39" },
-  { name: "88 v1 Sbs, file: "audio/88 v1 Sbs.mp3", duration: "3:16" },
+  { name: "88 v1 Sbs", file: "audio/88 v1 Sbs.mp3", duration: "3:16" },
   { name: "91 V1 Sbs", file: "audio/91 V1 Sbs.mp3", duration: "3:48" },
   
 ];
