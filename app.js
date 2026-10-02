@@ -4,7 +4,6 @@ const tracks = [
   { name: "66 avec bass Dam 20.01.26 +10dB", file: "audio/66 avec bass Dam 20.01.26 +10dB.mp3", duration: "4:05" },
   { name: "80 v5", file: "audio/80 v5.mp3", duration: "4:00" },
   { name: "80 V5 falling Sbs", file: "audio/80 V5 falling Sbs.mp3", duration: "3:30" },
-
   { name: "63 voix V8r", file: "audio/63 voix V8r.mp3", duration: "1:30" },
   { name: "67 V1", file: "audio/67 V1.mp3", duration: "2:56" },
   { name: "68 V0", file: "audio/68 V0.mp3", duration: "2:54" },
