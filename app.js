@@ -392,3 +392,18 @@ draw();
 document.addEventListener("click", () => {
   audioCtx.resume();
 }, { once: true });
+
+function downloadCurrentTrack() { 
+if (!tracks[current]) { 
+alert("Aucun morceau sélectionné."); 
+return;
+ } 
+const track = tracks[current]; 
+const link = document.createElement("a"); 
+link.href = track.file; 
+link.download = track.file.split("/").pop();
+ document.body.appendChild(link);
+ link.click(); 
+document.body.removeChild(link); 
+}
+
