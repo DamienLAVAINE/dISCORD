@@ -230,3 +230,9 @@ opacity: 1;
 
   background: rgba(255,255,255,0.05);
 }
+
+.download-btn { 
+font-weight: bold; 
+padding: 8px 14px; 
+white-space: nowrap; 
+}
