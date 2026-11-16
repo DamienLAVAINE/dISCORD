@@ -8,6 +8,7 @@ const tracks = [
   { name: "81 record 14.11", file: "audio/81 record 14.11.mp3", duration: "3:48" },
   { name: "86 record 14.11", file: "audio/86 record 14.11.mp3", duration: "3:31" },
   { name: "87 v3", file: "audio/87 v3.mp3", duration: "3:39" },
+  { name: "This is us another day", file: "audio/THIS-IS-US-ANTOHER-DAY-2.0-01.mp3", duration: "2:22" },
   
 ];
 
